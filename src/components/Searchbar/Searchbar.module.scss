@@ -1,0 +1,21 @@
+.searchbar {
+  height: 2rem;
+  grid-column: 2 / 4;
+  margin: 0;
+  padding: 0 2rem;
+  height: 2.8rem;
+  border-radius: 20px;
+  border: 0;
+  font-size: 1.6rem;
+  color: rgb(89, 89, 89);;
+}
+.searchbarContainer {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: flex-end;
+}
+.searchbar:focus{
+  outline: 0;
+}
